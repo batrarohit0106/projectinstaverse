@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/static/js/main.ca1a8edc.js",
+    "static/media/Instaverse.png": "/static/media/Instaverse.0f4ac1a042aa5b58d7cd.png",
+    "index.html": "/index.html",
+    "main.ca1a8edc.js.map": "/static/js/main.ca1a8edc.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ca1a8edc.js"
+  ]
+}

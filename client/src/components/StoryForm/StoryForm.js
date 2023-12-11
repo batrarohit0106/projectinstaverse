@@ -40,10 +40,10 @@ function StoryForm({ selectedId, setSelectedId }) {
         <Card style={styles.formCard}>
           <Title level={4}>
             <span style={styles.formTitle}>
-              Welcome to Instaverse!
+              Welcome to BookStore!
             </span> <br />
             Please <Link to="/authform">login</Link> or{" "}
-            <Link to="/authform">register</Link>  for sharing instant moments or ideas.
+            <Link to="/authform">register</Link>  for adding books.
           </Title>
         </Card>
       );
@@ -54,7 +54,7 @@ function StoryForm({ selectedId, setSelectedId }) {
         style={styles.formCard}
         title={
           <Title level={4} style={styles.formTitle}>
-            {selectedId ? "Editing" : "Share" } a story
+            {selectedId ? "Editing" : "Share" } a Book
           </Title>
         }
       >
@@ -66,10 +66,10 @@ function StoryForm({ selectedId, setSelectedId }) {
           size="middle"
           onFinish={onSubmit}
         >
-          <Form.Item name="caption" label="Caption" rules={[{ required: true }]} >
+          <Form.Item name="bookname" label="Book Name" rules={[{ required: true }]} >
             <Input.TextArea allowClear autoSize={{ minRows: 2, maxRows: 6 }} />
           </Form.Item>
-          <Form.Item name="tags" label="Tags" >
+          <Form.Item name="bookdescription" label="Book Description" >
             <Input.TextArea allowClear autoSize={{ minRows: 2, maxRows: 6 }}  />
           </Form.Item>
           <Form.Item name="image" label="Image" rules={[{ required: true }]}>

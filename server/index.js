@@ -14,7 +14,7 @@ app.use(cors());
 app.use("/stories",storyRoutes);
 app.use("/user",userRoutes);
 
-const MONGO_URI=process.env.MONGO_URI;
+const MONGO_URI="mongodb+srv://snapy:GOHARDWORKme11@cluster0.mpu2bhw.mongodb.net/?retryWrites=true&w=majority";
 const PORT=process.env.PORT||5001;
 
 const connectDB=async()=>{

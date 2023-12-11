@@ -33,7 +33,7 @@ export default function AppBar(){
         <div style={styles.header}>
         <Image style={styles.image} width={45} preview={false} src={Logo}/>
         &nbsp;
-        <Title style={styles.title}>Instaverse</Title>
+        <Title style={styles.title}>Book</Title>
         </div>
         </Link>
         {!user ?(
